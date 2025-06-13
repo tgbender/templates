@@ -143,7 +143,8 @@ atlassian-ide-plugin.xml
 
 # SonarLint plugin
 .idea/sonarlint/
-.idea/sonarlint.xml # see https://community.sonarsource.com/t/is-the-file-idea-idea-idea-sonarlint-xml-intended-to-be-under-source-control/121119
+# see https://community.sonarsource.com/t/is-the-file-idea-idea-idea-sonarlint-xml-intended-to-be-under-source-control/121119
+.idea/sonarlint.xml
 
 # Crashlytics plugin (for Android Studio and IntelliJ)
 com_crashlytics_export_strings.xml
@@ -496,12 +497,12 @@ unlinked_spec.ds
 **/linux/flutter/generated_plugins.cmake
 
 # Exceptions to above rules.
-!**/ios/**/default.mode1v3 # Added
-!**/ios/**/default.mode2v3 # Added
-!**/ios/**/default.pbxuser # Added
-!**/ios/**/default.perspectivev3 # Added
-!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages # Added
-!/dev/ci/**/Gemfile.lock # Added
+!**/ios/**/default.mode1v3
+!**/ios/**/default.mode2v3
+!**/ios/**/default.pbxuser
+!**/ios/**/default.perspectivev3
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+!/dev/ci/**/Gemfile.lock
 
 ---
 ### Swift / Xcode ###
@@ -602,3 +603,6 @@ docs/site/
 
 # Package Manifest (uncomment for libraries, keep for applications)
 # Manifest*.toml
+
+# AI tools
+*.aider
