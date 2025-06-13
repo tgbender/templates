@@ -1,0 +1,45 @@
+{
+  // --- General Settings ---
+  // Included in the .vscode/settings.json for this template repo, but intended to be applied to the 
+  // user's global settings.json file for consistency across all projects.
+  
+  // General editor settings for a better coding experience
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+
+  // --- Autosave Settings ---
+  // More granular control over the autosave feature
+  "files.autoSave": "onWindowChange",
+  "files.autoSaveDelay": 1000,
+  "files.autoSaveUntitled": true,
+  "files.defaultConflictResolution": "reload",
+  "workbench.editor.enablePreview": true,
+  
+  // --- Telemetry Settings ---
+  // Disable telemetry and crash reporting for privacy
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "telemetry.telemetryLevel": "off",
+  "sqldeveloper.telemetry.enabled": false,
+  "continue.telemetryEnabled": false,
+  "redhat.telemetry.enabled": false,
+  "redhat.telemetry.enableCrashReporter": false,
+  "tabby.usage.anonymousUsageTracking": false,
+  "amazonQ.telemetry": false,
+  "amazonQ.shareContentWithAWS": false,
+  "aws.telemetry": false,
+
+  // --- Window & Workbench Settings ---
+  "workbench.editor.revealIfOpen": true,
+  "window.openFoldersInNewWindow": "on",
+
+  // --- Notebook Settings ---
+  // Ensures consistent tabbing and indentation in notebooks
+  "notebook.editorOptionsCustomizations": {
+    "editor.tabSize": 4,
+    "editor.indentSize": 4
+  },
+  "notebook.consolidatedRunButton": true,
+
+}
