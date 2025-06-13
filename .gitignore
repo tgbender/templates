@@ -16,7 +16,6 @@ Thumbs.db
 *.bak
 *.tmp
 *.log
-*.lock
 
 # Environment variables
 .env
