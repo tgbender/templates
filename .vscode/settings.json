@@ -2,7 +2,7 @@
   // --- General Settings ---
   // Included in the .vscode/settings.json for this template repo, but intended to be applied to the 
   // user's global settings.json file for consistency across all projects.
-  
+
   // General editor settings for a better coding experience
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
@@ -29,6 +29,21 @@
   "amazonQ.telemetry": false,
   "amazonQ.shareContentWithAWS": false,
   "aws.telemetry": false,
+  "aws.enableTelemetry": false,
+
+  // Extension telemetry settings
+  "gitlens.telemetry.enabled": false,
+  "eslint.telemetry.enabled": false,
+  "prettier.telemetry.enabled": false,
+  "docker.telemetry.enabled": false,
+  "python.telemetry.enabled": false,
+  "typescript.tsserver.enableTelemetry": false,
+  "vscode-edge-devtools.telemetry.enabled": false,
+  "terminal.integrated.enableTelemetry": false,
+  
+  // Additional telemetry controls
+  "workbench.settings.enableTelemetry": false,
+  "extensionsGallery.enableTelemetry": false,
 
   // --- Window & Workbench Settings ---
   "workbench.editor.revealIfOpen": true,
