@@ -605,4 +605,4 @@ docs/site/
 # Manifest*.toml
 
 # AI tools
-*.aider
+.aider*
