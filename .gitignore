@@ -78,7 +78,7 @@ override.tf.json
 crash.log
 crash.*.log
 
----
+# ---
 ### IDE & Editor Config ###
 
 # JetBrains IDEs (IntelliJ, PyCharm, WebStorm, etc.)
@@ -182,7 +182,7 @@ fabric.properties
 .cursorignore
 .cursorindexingignore
 
----
+# ---
 ### Python ###
 # Byte-compiled/optimized files
 __pycache__/
@@ -298,7 +298,7 @@ celerybeat.pid
 # SageMath
 *.sage.py
 
----
+# ---
 ### Node.js / JavaScript ###
 # Compiled binary addons
 build/Release
@@ -332,7 +332,7 @@ build/Release
 .yarn/build-state.yml
 .yarn/install-state.gz
 
----
+# ---
 ### Java / Kotlin ###
 # Compiled files
 *.class
@@ -357,7 +357,7 @@ buildNumber.properties # Added
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
----
+# ---
 ### Go ###
 # Binaries
 *.exe
@@ -382,7 +382,7 @@ vendor/ # Added
 go.work
 go.work.sum
 
----
+# ---
 ### Rust ###
 # Compiled files and executables
 debug/
@@ -395,7 +395,7 @@ target/
 # Mutation testing
 **/mutants.out*/
 
----
+# ---
 ### Dart & Flutter ###
 # General Dart/Pub ignores
 .dart_tool/
@@ -504,7 +504,7 @@ unlinked_spec.ds
 !/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
 !/dev/ci/**/Gemfile.lock
 
----
+# ---
 ### Swift / Xcode ###
 # User settings
 xcuserdata/
@@ -549,7 +549,7 @@ fastlane/Preview.html
 fastlane/screenshots/
 fastlane/test_output/
 
----
+# ---
 ### R ###
 # History & Session Data
 .Rhistory
@@ -583,7 +583,7 @@ po/*~
 # RStudio Connect
 rsconnect/
 
----
+# ---
 ### Julia ###
 # Coverage & Allocation files
 *.jl.cov
